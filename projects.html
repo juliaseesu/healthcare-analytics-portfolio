@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Projects | Julia Giles</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    background-color: #f5f6fa;
+}
+
+.sidebar {
+    width: 280px;
+    background-color: #c8b6ff;
+    color: white;
+    height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sidebar h2 {
+    margin-bottom: 5px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+.sidebar a:hover {
+    opacity: 0.8;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.main {
+    flex: 1;
+    padding: 80px;
+    background-color: white;
+}
+
+.section h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.project {
+    background-color: #f2f2f7;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    margin: 10px 0 15px 0;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #7b6cf6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6754e8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Julia Giles</h2>
+    <p>Healthcare Data Analyst</p>
+
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/julia-giless" target="_blank">LinkedIn</a>
+        <a href="https://github.com/juliaseesu" target="_blank">GitHub</a>
+    </div>
+</div>
+
+<div class="main">
+
+    <div class="section">
+        <h1>Healthcare Analytics Projects</h1>
+
+        <div class="project">
+            <h3>Clinical EHR Database Analysis</h3>
+            <p>
+                Designed and implemented a relational hospital database using SQLite. 
+                Performed multi-table SQL joins to analyze length of stay, billing trends, 
+                insurance patterns, and high-cost patient identification. Demonstrated 
+                healthcare KPI analysis and database modeling fundamentals.
+            </p>
+            <a href="https://github.com/juliaseesu/healthcare-analytics-portfolio/tree/main/clinical-ehr-analysis" target="_blank">
+                <button>View on GitHub</button>
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>CMS Medicare Inpatient Utilization Analysis</h3>
+            <p>
+                Cleaned and transformed multi-sheet CMS government Excel data into a structured 
+                analysis-ready dataset. Standardized headers, extracted calendar year values, 
+                and performed utilization trend analysis across entitlement categories.
+            </p>
+            <a href="https://github.com/juliaseesu/healthcare-analytics-portfolio/tree/main/cms-medicare-inpatient-analysis" target="_blank">
+                <button>View on GitHub</button>
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>CDC Emergency Department Trends (2016–2022)</h3>
+            <p>
+                Conducted national time-series analysis of emergency department visit counts 
+                using CDC public health data. Cleaned numeric fields, filtered reliable 
+                estimates, calculated year-over-year percentage changes, and identified 
+                COVID-era utilization impacts.
+            </p>
+            <a href="https://github.com/juliaseesu/healthcare-analytics-portfolio/tree/main/emergency-department-trends" target="_blank">
+                <button>View on GitHub</button>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
